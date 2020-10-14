@@ -46,7 +46,7 @@ lazy val core = crossProject(JSPlatform, JVMPlatform).in(file("core"))
       "org.typelevel" %%% "cats-free" % "2.2.0",
       "org.typelevel" %%% "cats-mtl"  % "1.0.0",
 
-      "org.specs2" %%% "specs2-core" % "4.10.3" % Test),
+      "org.specs2" %%% "specs2-core" % "4.10.5" % Test),
 
     mimaPreviousArtifacts := {
       val old = mimaPreviousArtifacts.value
